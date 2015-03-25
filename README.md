@@ -1,4 +1,4 @@
-# `Array.prototype.tail`
+# `Array.prototype.drop`
 
 ## Status
 
@@ -11,9 +11,9 @@ WIP strawman proposal.
 **Example:**
 
 ```js
-[1, 2, 3].tail();
+[1, 2, 3].drop();
 // [2, 3]
-[1, 2, 3].tail(2);
+[1, 2, 3].drop(2);
 // [3]
 ```
 
@@ -26,7 +26,7 @@ WIP strawman proposal.
 **Syntax**
 
 ```ts
-Array.prototype.tail(n=1): array
+Array.prototype.drop(n=1): array
 ```
 
 **Description**
